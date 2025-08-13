@@ -5,6 +5,7 @@
     </h1>
     <h2>
       <ColorModeSwitcher />
+      <LanguageSwitcher />
     </h2>
 
     <div class="flex items-center gap-2">
