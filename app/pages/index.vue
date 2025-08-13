@@ -3,6 +3,9 @@
     <h1 class="font-bold text-2xl text-(--ui-primary)">
       Nuxt UI - Starter
     </h1>
+    <h2>
+      <ColorModeSwitcher />
+    </h2>
 
     <div class="flex items-center gap-2">
       <UButton
