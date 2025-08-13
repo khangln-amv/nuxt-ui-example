@@ -1,5 +1,9 @@
+<script setup lang="ts">
+const { uiLocale } = useUiLocale()
+</script>
+
 <template>
-  <UApp>
+  <UApp :locale="uiLocale">
     <NuxtPage />
   </UApp>
 </template>
