@@ -18,12 +18,18 @@ export default defineNuxtConfig({
             {
                 code: 'en',
                 name: 'English',
+                file: 'en.json',
             },
             {
                 code: 'vi',
                 name: 'Tiếng Việt',
+                file: 'vi.json',
             },
         ],
+    },
+
+    image: {
+        dir: 'assets'
     },
 
     compatibilityDate: '2025-07-16'

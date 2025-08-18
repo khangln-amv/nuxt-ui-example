@@ -13,5 +13,5 @@ const currentLocale = computed({
 </script>
 
 <template>
-  <USelect v-model="currentLocale" :items="localeOptions" class="w-48" />
+  <USelect v-model="currentLocale" :items="localeOptions" />
 </template>

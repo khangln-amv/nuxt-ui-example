@@ -4,6 +4,8 @@ const { uiLocale } = useUiLocale()
 
 <template>
   <UApp :locale="uiLocale">
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </UApp>
 </template>
